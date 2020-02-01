@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "831752312650",
+    "firebase_url": "https://listec-e6638.firebaseio.com",
+    "project_id": "listec-e6638",
+    "storage_bucket": "listec-e6638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831752312650:android:d88acd6cc6883cbb8e13b3",
+        "android_client_info": {
+          "package_name": "com.example.listec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831752312650-ionrqudtsvflsq1ev30h3nudules4rj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD010y0YMZXubj23asfL722Qb2sfkjZSEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831752312650-ionrqudtsvflsq1ev30h3nudules4rj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

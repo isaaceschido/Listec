@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600px"
+    tools:context=".ui.MenuInflaterActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="580px"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/list_group"
+            android:background="@color/list"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/list_option" />
+
+        <Button
+            android:id="@+id/finalize_group"
+            android:background="@color/finalizedGroup"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/finalize_option" />
+
+        <Button
+            android:id="@+id/delete_group"
+            android:background="@color/deleteGroup"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/delete_option" />
+    </LinearLayout>
+
+</RelativeLayout>

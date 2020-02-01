@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350px"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/statistics_student_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student name"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="f = "
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statistics_student_faltas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:text="Asistants"
+            android:textColor="@color/red1"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="a = "
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statistics_student_asistant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:text="Asistants"
+            android:textColor="@color/blue1"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Average = "
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/statistics_student_avarage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:text="Avarage"
+            android:textColor="@color/blue1"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="%"
+            android:textColor="@color/blue1"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

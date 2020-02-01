@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/student_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student name"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="f = "
+            android:textColor="#000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/student_faltas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Asistants"
+            android:textColor="@color/red1"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="a = "
+            android:textColor="#000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/student_asistant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:text="Asistants"
+            android:textColor="@color/blue1"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>
